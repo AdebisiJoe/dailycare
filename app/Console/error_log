@@ -1,0 +1,8 @@
+[20-Jul-2017 01:37:26 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 9
+[08-Feb-2018 15:43:03 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:44:19 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:50:57 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:51:25 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:51:42 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:51:43 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8
+[08-Feb-2018 15:52:44 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hworld/public_html/app/Console/Kernel.php on line 8

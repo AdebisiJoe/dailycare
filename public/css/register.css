@@ -1,0 +1,90 @@
+html {
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+body{
+    height: 100%;
+}
+
+.bgd-img{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/pexels-photo-1266193.JPG') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgd-img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    /* z-index:-1; Remove this line if it's not going to be a background! */
+}
+
+.overlay{
+    height: 100%;
+    overflow-y: scroll;
+    /* background: rgba(105, 48, 1, 0.6); */
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+
+.sideForm{
+    background: rgba(255, 255, 255, 0.8);
+    height: 100%;
+}
+
+.matForm .form-group input, .matForm .form-group select{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(75, 73, 71);
+    color: rgb(26, 23, 22);
+    border-radius: 0px;
+}
+
+.matForm .form-group input::placeholder{
+    color: rgb(104, 104, 104);
+}
+
+.matForm .form-group input:focus, .matForm .form-group select:focus{
+    border: none;
+    border-bottom: 3px solid rgb(71, 68, 66);
+    box-shadow: none;
+}
+
+.btn-happyWorld{
+    background: #ff5722;
+    color: white;
+}
+
+.btn2{
+    display: none;
+}
+
+.prevBtn{
+    
+}
+
+.bg-blue {
+    background: linear-gradient(-48deg, rgb(241, 174, 110) -30%, #db3e00 60%) !important;
+    border-color: #e65f05 !important;
+    color: #fff !important;
+    box-shadow: 8px 10px 20px 0 rgba(0, 0, 0, 0.22) !important;
+    margin-bottom: 35px !important;
+    border-radius: 22px !important;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    padding-left: 26px !important;
+    padding-right: 26px !important;
+}
+
+.regArea{
+}
+
+.switchAlert{
+    display: none;
+}

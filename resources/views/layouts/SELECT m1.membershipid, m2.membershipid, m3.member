@@ -1,0 +1,8 @@
+SELECT m1.membershipid, m2.membershipid, m3.membershipid, m4.membershipid
+FROM member_table m1 -- 1st level
+LEFT OUTER JOIN member_table m2
+ON m2.parentid = m1.membershipid -- 2nd level
+LEFT OUTER JOIN member_table m3
+ON m3.parentid = m2.membershipid -- 3rd level
+LEFT OUTER JOIN member_table m4
+ON m4.membershipid = m3.membershipid WHERE m1.membershipid='HW00016001';

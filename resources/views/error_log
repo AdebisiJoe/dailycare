@@ -1,0 +1,31 @@
+[24-May-2017 14:22:08 America/Chicago] PHP Fatal error:  Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php on line 7
+[24-May-2017 14:22:27 America/Chicago] PHP Fatal error:  Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php on line 7
+[20-Jul-2017 01:36:29 America/Chicago] PHP Fatal error:  Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php on line 7
+[08-Aug-2017 14:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[18-Aug-2017 22:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[19-Aug-2017 00:12:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[12-Oct-2017 13:08:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[12-Oct-2017 13:09:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[20-Oct-2017 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7
+[29-Nov-2017 13:12:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function asset() in /home/hworld/public_html/resources/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/hworld/public_html/resources/views/index.php on line 7

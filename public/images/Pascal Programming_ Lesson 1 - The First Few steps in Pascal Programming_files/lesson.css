@@ -1,0 +1,20 @@
+pre {
+	border:1px solid #999;
+	padding:10px;
+	white-space:pre-wrap;
+	overflow: auto;
+	background: #EFEFEF;
+}
+
+code { font-family:'Courier New'; font-size:18px; }
+
+pre code { font-size:17px; }
+
+.preface {
+	border:1px solid #999;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top:20px;
+	line-height:150%;
+	background: #EEE;
+}

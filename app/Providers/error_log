@@ -1,0 +1,12 @@
+[20-Jul-2017 01:36:39 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/hworld/public_html/app/Providers/RouteServiceProvider.php on line 9
+[20-Jul-2017 01:36:45 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/hworld/public_html/app/Providers/AppServiceProvider.php on line 9
+[20-Jul-2017 01:37:12 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/hworld/public_html/app/Providers/AuthServiceProvider.php on line 9
+[20-Jul-2017 01:37:29 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/hworld/public_html/app/Providers/EventServiceProvider.php on line 9
+[08-Feb-2018 15:43:14 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/hworld/public_html/app/Providers/AppServiceProvider.php on line 9
+[08-Feb-2018 15:43:14 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/hworld/public_html/app/Providers/AuthServiceProvider.php on line 8
+[08-Feb-2018 15:43:15 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/hworld/public_html/app/Providers/EventServiceProvider.php on line 8
+[08-Feb-2018 15:43:15 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/hworld/public_html/app/Providers/RouteServiceProvider.php on line 8
+[08-Feb-2018 15:45:19 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/hworld/public_html/app/Providers/AppServiceProvider.php on line 9
+[08-Feb-2018 15:45:23 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/hworld/public_html/app/Providers/AuthServiceProvider.php on line 8
+[08-Feb-2018 15:45:25 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/hworld/public_html/app/Providers/EventServiceProvider.php on line 8
+[08-Feb-2018 15:45:28 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/hworld/public_html/app/Providers/RouteServiceProvider.php on line 8
