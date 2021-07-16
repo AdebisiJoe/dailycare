@@ -511,11 +511,11 @@ Route::group(['middleware' => ['web']], function () {
 
         Route::get('', function () {
             return view('website.pages.index');
-        });
+        })->name('pages.index');
 
         Route::get('/about-us', function () {
             return view('website.pages.about');
-        });
+        })->name('pages.about');
 
         Route::get('/faq', function () {
             return view('website.pages.faq.index');

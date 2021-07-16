@@ -36,7 +36,7 @@
     </div>
     <div class="container">
         <nav class="navbar navbar-expand-lg"> 
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{ route('pages.index') }}">
                 <img class="logo_light" src="{{ asset('front/assets/images/logo_white.png') }}" alt="logo" />
                 <img class="logo_dark" src="{{ asset('front/assets/images/logo_dark.png') }}" alt="logo" />
                 <img class="logo_default" src="{{ asset('front/assets/images/logo_dark.png') }}" alt="logo" />
@@ -45,16 +45,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				<ul class="navbar-nav">
                     <li>
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="{{ route('pages.index') }}">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="{{ route('pages.about') }}">About Us</a>
                     </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Packages</a>
                         <div class="dropdown-menu">
                             <ul> 
-                                <li><a class="dropdown-item nav-link nav_item" href="index.html">Basic Package</a></li> 
+                                <li><a class="dropdown-item nav-link nav_item" href="{{ route('pages.index') }}">Basic Package</a></li> 
                                 <li><a class="dropdown-item nav-link nav_item" href="index-2.html">Premium Package</a></li> 
                                 <li><a class="dropdown-item nav-link nav_item" href="index-3.html">Dollar Package</a></li> 
                             </ul>
