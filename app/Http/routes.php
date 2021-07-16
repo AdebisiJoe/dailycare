@@ -514,15 +514,15 @@ Route::group(['middleware' => ['web']], function () {
         });
 
         Route::get('/about-us', function () {
-            return view('website4.pages.about.index');
+            return view('website.pages.about');
         });
 
         Route::get('/faq', function () {
-            return view('website4.pages.faq.index');
+            return view('website.pages.faq.index');
         });
 
         Route::get('/contact', function () {
-            return view('website4.front.contact.index');
+            return view('website.front.contact.index');
         });
 
         Route::get('/join-now', function () {
