@@ -510,15 +510,15 @@ Route::group(['middleware' => ['web']], function () {
 
 
         Route::get('', function () {
-            return view('website4.front.home');
+            return view('website.pages.index');
         });
 
         Route::get('/about-us', function () {
-            return view('website4.front.about.index');
+            return view('website4.pages.about.index');
         });
 
         Route::get('/faq', function () {
-            return view('website4.front.faq.index');
+            return view('website4.pages.faq.index');
         });
 
         Route::get('/contact', function () {
