@@ -1,12 +1,12 @@
 @extends('website.mas')
 
 @section('page-title')
-About
+ Index
 @endsection
 
 @section('content')
 <!-- START SECTION BANNER -->
-<section class="bg_light_yellow breadcrumb_section background_bg bg_fixed bg_size_contain" data-img-src="assets/images/breadcrumb_bg.png">
+<section class="bg_light_yellow breadcrumb_section background_bg bg_fixed bg_size_contain" data-img-src="{{ asset('front/assets/images/breadcrumb_bg.png') }}">
 	<div class="container">
     	<div class="row align-items-center">
         	<div class="col-sm-12 text-center">
@@ -34,7 +34,7 @@ About
                     <div class="row align-items-center">	
                         <div class="col-xl-7 col-md-6 animation" data-animation="bounceInUp" data-animation-delay="0.3s">
                             <div class="about_img fancy_border text-center">
-                                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/about_img.png" alt="about_img" />
+                                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/about_img.png') }}" alt="about_img" />
                             </div>
                         </div>
                         <div class="col-xl-5 col-md-6 order-md-first animation" data-animation="bounceInUp" data-animation-delay="0.4s">
@@ -61,37 +61,37 @@ About
     <div class="overlap_shape">
         <div class="ol_shape25">
             <div class="animation" data-animation="bounceInDown" data-animation-delay="0.5s">
-                <img data-parallax='{"y": -30, "smoothness": 20}' src="assets/images/shape44.png" alt="shape44"/>
+                <img data-parallax='{"y": -30, "smoothness": 20}' src="{{ asset('front/assets/images/shape44.png') }}" alt="shape44"/>
             </div>
         </div>
         <div class="ol_shape26">
             <div class="animation" data-animation="zoomIn" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape45.png" alt="shape45"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape45.png') }}" alt="shape45"/>
             </div>
         </div>
         <div class="ol_shape27">
             <div class="animation" data-animation="zoomIn" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape46.png" alt="shape46"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape46.png') }}" alt="shape46"/>
             </div>
         </div>
         <div class="ol_shape28">
             <div class="animation" data-animation="bounceInUp" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape47.png" alt="shape47"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape47.png') }}" alt="shape47"/>
             </div>
         </div>
         <div class="ol_shape29">
             <div class="animation" data-animation="slideInRight" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape48.png" alt="shape48"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape48.png') }}" alt="shape48"/>
             </div>
         </div>
         <div class="ol_shape30">
             <div class="animation" data-animation="slideInRight" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape49.png" alt="shape49"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape49.png') }}" alt="shape49"/>
             </div>
         </div>
         <div class="ol_shape31">
             <div class="animation" data-animation="slideInRight" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 30, "smoothness": 20}' src="assets/images/shape50.png" alt="shape50"/>
+                <img data-parallax='{"y": 30, "smoothness": 20}' src="{{ asset('front/assets/images/shape50.png') }}" alt="shape50"/>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@ About
         	<div class="col-xl-3 col-md-6">
             	<div class="icon_box icon_box_style3 box_shadow4 bg-white animation" data-animation="fadeInUp" data-animation-delay="0.04s">
                 	<div class="box_icon">
-                		<img src="assets/images/icon1.png" alt="icon1">
+                		<img src="{{ asset('front/assets/images/icon1.png') }}" alt="icon1">
                     </div>
                     <div class="intro_desc">
                         <h6>Natural Organic Fruits</h6>
@@ -125,7 +125,7 @@ About
             <div class="col-xl-3 col-md-6">
                 <div class="icon_box icon_box_style3 box_shadow4 bg-white animation" data-animation="fadeInUp" data-animation-delay="0.05s">
                 	<div class="box_icon">
-                		<img src="assets/images/icon2.png" alt="icon2">
+                		<img src="{{ asset('front/assets/images/icon2.png') }}" alt="icon2">
                     </div>
                     <div class="intro_desc">
                         <h6>Fresh Vegetables</h6>
@@ -136,7 +136,7 @@ About
             <div class="col-xl-3 col-md-6">
             	<div class="icon_box icon_box_style3 box_shadow4 bg-white animation" data-animation="fadeInUp" data-animation-delay="0.04s">
                 	<div class="box_icon">
-                		<img src="assets/images/icon3.png" alt="icon3">
+                		<img src="{{ asset('front/assets/images/icon3.png') }}" alt="icon3">
                     </div>
                     <div class="intro_desc">
                         <h6>100% Organic Juices</h6>
@@ -147,7 +147,7 @@ About
             <div class="col-xl-3 col-md-6">
                 <div class="icon_box icon_box_style3 box_shadow4 bg-white animation" data-animation="fadeInUp" data-animation-delay="0.05s">
                 	<div class="box_icon">
-                		<img src="assets/images/icon4.png" alt="icon4">
+                		<img src="{{ asset('front/assets/images/icon4.png') }}" alt="icon4">
                     </div>
                     <div class="intro_desc">
                         <h6>Natural Organic Tea</h6>
@@ -177,7 +177,7 @@ About
         	<div class="col-lg-3 col-sm-6">
             	<div class="team_box">
                 	<div class="team_img">
-                    	<img src="assets/images/team1.jpg" alt="team1">
+                    	<img src="{{ asset('front/assets/images/team1.jpg') }}" alt="team1">
                     </div>
                     <div class="team_info">
                         <div class="team_title">
@@ -196,7 +196,7 @@ About
             <div class="col-lg-3 col-sm-6">
             	<div class="team_box">
                 	<div class="team_img">
-                    	<img src="assets/images/team2.jpg" alt="team2">
+                    	<img src="{{ asset('front/assets/images/team2.jpg') }}" alt="team2">
                     </div>
                     <div class="team_info">
                         <div class="team_title">
@@ -215,7 +215,7 @@ About
             <div class="col-lg-3 col-sm-6">
             	<div class="team_box">
                 	<div class="team_img">
-                    	<img src="assets/images/team3.jpg" alt="team3">
+                    	<img src="{{ asset('front/assets/images/team3.jpg') }}" alt="team3">
                         
                     </div>
                     <div class="team_info">
@@ -235,7 +235,7 @@ About
             <div class="col-lg-3 col-sm-6">
             	<div class="team_box">
                 	<div class="team_img">
-                    	<img src="assets/images/team4.jpg" alt="team4">
+                    	<img src="{{ asset('front/assets/images/team4.jpg') }}" alt="team4">
                     </div>
                     <div class="team_info">
                         <div class="team_title">
@@ -280,7 +280,7 @@ About
                             </div>
                         <div class="testi_meta">
                         	<div class="testimonial_img">
-                                <img src="assets/images/client_img1.jpg" alt="client">
+                                <img src="{{ asset('front/assets/images/client_img1.jpg') }}" alt="client">
                             </div>
                         	<div class="testi_user">
                             	<h5>Merry Walter</h5>
@@ -294,7 +294,7 @@ About
                             </div>
                         <div class="testi_meta">
                         	<div class="testimonial_img">
-                                <img src="assets/images/client_img2.jpg" alt="client">
+                                <img src="{{ asset('front/assets/images/client_img2.jpg') }}" alt="client">
                             </div>
                         	<div class="testi_user">
                             	<h5>John Mark</h5>
@@ -308,7 +308,7 @@ About
                             </div>
                         <div class="testi_meta">
                         	<div class="testimonial_img">
-                                <img src="assets/images/client_img3.jpg" alt="client">
+                                <img src="{{ asset('front/assets/images/client_img3.jpg') }}" alt="client">
                             </div>
                         	<div class="testi_user">
                             	<h5>Calvin William</h5>
@@ -323,12 +323,12 @@ About
     <div class="overlap_shape">
         <div class="ol_shape17">
             <div class="animation" data-animation="fadeInLeft" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 20, "smoothness": 20}' src="assets/images/testimonial_bg_img1.jpg" alt="testimonial_bg_img1"/>
+                <img data-parallax='{"y": 20, "smoothness": 20}' src="{{ asset('front/assets/images/testimonial_bg_img1.jpg') }}" alt="testimonial_bg_img1"/>
             </div>
         </div>
         <div class="ol_shape18">
             <div class="animation" data-animation="fadeInRight" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 20, "smoothness": 20}' src="assets/images/testimonial_bg_img2.png" alt="testimonial_bg_img2"/>
+                <img data-parallax='{"y": 20, "smoothness": 20}' src="{{ asset('front/assets/images/testimonial_bg_img2.png') }}" alt="testimonial_bg_img2"/>
             </div>
         </div>
     </div>
@@ -353,19 +353,19 @@ About
         	<div class="col-12 animation" data-animation="fadeInUp" data-animation-delay="0.02s">
             	<div class="carousel_slide5 owl-carousel owl-theme" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true">
                 	<div class="items">
-                    	<a href="#"><img src="assets/images/cl_logo1.png" alt="cl_logo1"/></a>
+                    	<a href="#"><img src="{{ asset('front/assets/images/cl_logo1.png') }}" alt="cl_logo1"/></a>
                     </div>
                     <div class="items">
-                    	<a href="#"><img src="assets/images/cl_logo2.png" alt="cl_logo2"/></a>
+                    	<a href="#"><img src="{{ asset('front/assets/images/cl_logo2.png') }}" alt="cl_logo2"/></a>
                     </div>
                     <div class="items">
-                    	<a href="#"><img src="assets/images/cl_logo3.png" alt="cl_logo3"/></a>
+                    	<a href="#"><img src="{{ asset('front/assets/images/cl_logo3.png') }}" alt="cl_logo3"/></a>
                     </div>
                     <div class="items">
-                    	<a href="#"><img src="assets/images/cl_logo4.png" alt="cl_logo4"/></a>
+                    	<a href="#"><img src="{{ asset('front/assets/images/cl_logo4.png') }}" alt="cl_logo4"/></a>
                     </div>
                     <div class="items">
-                    	<a href="#"><img src="assets/images/cl_logo5.png" alt="cl_logo5"/></a>
+                    	<a href="#"><img src="{{ asset('front/assets/images/cl_logo5.png') }}" alt="cl_logo5"/></a>
                     </div>
                 </div>
             </div>
@@ -398,12 +398,12 @@ About
     <div class="overlap_shape">
         <div class="ol_shape19">
             <div class="animation" data-animation="fadeInLeft" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 20, "smoothness": 20}' src="assets/images/shape34.png" alt="shape34"/>
+                <img data-parallax='{"y": 20, "smoothness": 20}' src="{{ asset('front/assets/images/shape34.png') }}" alt="shape34"/>
             </div>
         </div>
         <div class="ol_shape20">
             <div class="animation" data-animation="fadeInRight" data-animation-delay="0.5s">
-                <img data-parallax='{"y": 20, "smoothness": 20}' src="assets/images/shape35.png" alt="shape35"/>
+                <img data-parallax='{"y": 20, "smoothness": 20}' src="{{ asset('front/assets/images/shape35.png') }}" alt="shape35"/>
             </div>
         </div>
     </div>
