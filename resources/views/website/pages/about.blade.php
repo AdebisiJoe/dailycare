@@ -39,10 +39,10 @@
                         </div>
                         <div class="col-xl-5 col-md-6 order-md-first animation" data-animation="bounceInUp" data-animation-delay="0.4s">
                             <div class="heading_s2">
-                                <span class="sub_heading">With Happy Life</span>
-                                <h2>About Organiq Store</h2>
+                                {{-- <span class="sub_heading">With Happy Life</span> --}}
+                                <h2>About DailyCare</h2>
                             </div>
-                            <p>UFS & Agricultural Services {A UNIQUE FOOD SOLUTIONS PROVIDER} is a Multi-Level Marketing (MLM) Company duly registered and established for professional development, human capacity development and to alleviate hunger and poverty by simple system of weekly and monthly food distribution for all the nations. It is a clarion call to “feed the nations” with the basic necessities of life. Our strategy is premised on best global business practices aimed at delivering on our corporate promise to our partners.</p>
+                            <p>DailyCare is a Multi-Level Marketing (MLM) Company duly registered and established for professional development, human capacity development and to alleviate hunger and poverty by simple system of weekly and monthly food distribution for all the nations. It is a clarion call to “feed the nations” with the basic necessities of life. Our strategy is premised on best global business practices aimed at delivering on our corporate promise to our partners.</p>
                             <p>
                                 Starting with our free skills acquisition and other leadership management trainings to develop our people’s skills, to food security by encouraging agricultural projects, then our partners will surely experience financial upliftment. People look for different things in life in their quest for financial freedom.</p>
                             <ul class="list_none social_icons mt-4">

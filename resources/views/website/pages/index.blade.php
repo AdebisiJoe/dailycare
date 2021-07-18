@@ -314,7 +314,7 @@
                 <div class="heading_s1 text-center animation" data-animation="fadeInUp" data-animation-delay="0.02s">
                     <h2>
                         Business Packages
-                        </h2>
+                    </h2>
                 </div>
                 <p class="animation" data-animation="fadeInUp" data-animation-delay="0.03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
             </div>

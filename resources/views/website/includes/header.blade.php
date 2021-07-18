@@ -13,22 +13,22 @@
                         <li>
                             <div class="custome_dropdown">
                                 <select name="countries" class="custome_select">
-                                    <option value='en' data-title="English">English</option>
-                                    <option value='fn' data-title="France">France</option>
-                                    <option value='us' data-title="United States">United States</option>
+                                    <option value='ng' data-title="English">Nigeria</option>
+                                    <option value='fn' data-title="France">Ghana</option>
+                                    <option value='us' data-title="United States">Kenya</option>
                                 </select>
                             </div>
                         </li>
-                        <li class="dropdown">
+                        {{-- <li class="dropdown">
                           <a class="dropdown-toggle" href="#" data-toggle="dropdown">My Account</a>
                           <div class="dropdown-menu shadow dropdown-menu-right">
                             <ul>
-                                <li><a class="dropdown-item" href="my-account.html">My account</a></li>
+                                <li><a class="dropdown-item" href="">My account</a></li>
                                 <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
                                 <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
                             </ul>
                           </div>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <li>
                         <a class="nav-link" href="{{ route('pages.about') }}">About Us</a>
                     </li>
-                    <li class="dropdown">
+                    {{-- <li class="dropdown">
                         <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Packages</a>
                         <div class="dropdown-menu">
                             <ul> 
@@ -59,26 +59,26 @@
                                 <li><a class="dropdown-item nav-link nav_item" href="index-3.html">Dollar Package</a></li> 
                             </ul>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <a class="nav-link" href="blog-list-right-sidebar.html">Blog</a>
+                    </li> --}}
+                    <li>
+                        <a class="nav-link" href="{{ route('pages.about') }}">Compenstaion Plan</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="gallery-three-columns.html">Gallery</a>
+                        <a class="nav-link" href="{{ route('pages.faq') }}">FAQ</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="{{url('/contact')}}">Contact</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link" href="{{url('/login')}}">Login</a>
                     </li>
                 </ul>
             </div>
             <ul class="navbar-nav attr-nav align-items-center">
-                <li><a href="javascript:void(0);" class="nav-link search_trigger"><i class="ion-ios-search-strong"></i></a>
+                {{-- <li><a href="javascript:void(0);" class="nav-link search_trigger"><i class="ion-ios-search-strong"></i></a>
                     <div class="search-overlay">
                         <div class="search_wrap">
                             <form>
@@ -89,8 +89,8 @@
                             </form>
                         </div>
                     </div>
-                </li>
-                <li class="dropdown cart_wrap">
+                </li> --}}
+                {{-- <li class="dropdown cart_wrap">
                 	<a class="nav-link" href="#" data-toggle="dropdown"><i class="ion-bag"></i><span class="cart_count">2</span></a>
                         <div class="cart_box dropdown-menu dropdown-menu-right">
                             <ul class="cart_list">
@@ -110,7 +110,7 @@
                             <p class="cart_buttons"><a href="cart.html" class="btn btn-default btn-radius view-cart">View Cart</a><a href="checkout.html" class="btn btn-dark btn-radius checkout">Checkout</a></p>
                         </div>
                     </div>
-                </li>
+                </li> --}}
             </ul>
         </nav>
     </div>

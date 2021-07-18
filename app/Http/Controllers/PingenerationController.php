@@ -112,7 +112,7 @@ public function getthememberid(){
 
 public function  getmembershipid(){
 $lastid=$this->getlastid();
-$string='URS';
+$string='DC';
 
 //$countstring=strlen($lastid);
 $number=1000;

@@ -518,11 +518,11 @@ Route::group(['middleware' => ['web']], function () {
         })->name('pages.about');
 
         Route::get('/faq', function () {
-            return view('website.pages.faq.index');
-        });
+            return view('website.pages.faq');
+        })->name('pages.faq');
 
         Route::get('/contact', function () {
-            return view('website.front.contact.index');
+            return view('website.pages.contactus');
         });
 
         Route::get('/join-now', function () {

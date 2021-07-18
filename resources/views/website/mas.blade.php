@@ -10,7 +10,7 @@
 <meta name="keywords" content="food shop, fresh, modern, organic farm, organic farm shop, organic food, organic shop, agriculture, agritourism, agrotourism, e-commerce, eco, eco products, farm, farming, food, health, organic, organic food, retail, shop, store">
 
 <!-- SITE TITLE -->
-<title>Organiq - Organic Food HTML Template</title>
+<title>Daily Care International</title>
 <!-- Favicon Icon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('front/assets/images/favicon.png') }}">
 <!-- Animation CSS -->
