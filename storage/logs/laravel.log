@@ -34621,3 +34621,84 @@ Stack trace:
   thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
 Stack trace:
 #0 {main}  
+[2021-07-20 21:27:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:27:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:28:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:28:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:29:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:29:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:29:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught ReflectionException: Class blade.compiler does not exist in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Container\Container.php:738
+Stack trace:
+#0 C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Container\Container.php(738): ReflectionClass->__construct('blade.compiler')
+#1 C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Container\Container.php(633): Illuminate\Container\Container->build('blade.compiler', Array)
+#2 C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(674): Illuminate\Container\Container->make('blade.compiler', Array)
+#3 C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(63): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#4 Command line code(1): app('Illuminate\\View...')
+#5 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Container\Container.php:738
+Stack trace:
+#0 {main}  
+[2021-07-20 21:30:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:30:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:31:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:31:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:32:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:32:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  
+[2021-07-20 21:33:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught Error: Call to undefined method Illuminate\Auth\Access\Gate::abilities() in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:215
+Stack trace:
+#0 {main}  
+[2021-07-20 21:33:04] local.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: syntax error, unexpected ')', expecting variable (T_VARIABLE) in C:\xampp\htdocs\webdesignclass\uniquerealtyapp\app\binarytree.php:66
+Stack trace:
+#0 {main}  

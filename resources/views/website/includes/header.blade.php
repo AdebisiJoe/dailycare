@@ -37,9 +37,9 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg"> 
             <a class="navbar-brand" href="{{ route('pages.index') }}">
-                <img class="logo_light" src="{{ asset('front/assets/images/logo_white.png') }}" alt="logo" />
-                <img class="logo_dark" src="{{ asset('front/assets/images/logo_dark.png') }}" alt="logo" />
-                <img class="logo_default" src="{{ asset('front/assets/images/logo_dark.png') }}" alt="logo" />
+                <img class="logo_light" src="{{ asset('front/assets/images/logo_white.png') }}" style="width:167px; height:68px" alt="logo" />
+                <img class="logo_dark" src="{{ asset('front/assets/images/logo_dark.png') }}" style="width:167px; height:68px" alt="logo" />
+                <img class="logo_default" src="{{ asset('front/assets/images/logo_dark.png') }}" style="width:167px; height:68px" alt="logo" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">

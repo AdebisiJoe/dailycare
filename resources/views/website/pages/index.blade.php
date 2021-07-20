@@ -15,8 +15,8 @@
                         <div class="row">
                             <div class="col-xl-8 offset-xl-1 col-lg-9 offset-lg-1">
                                 <div class="banner_content banner_content_pad animation" data-animation="fadeIn" data-animation-delay="0.4s" data-parallax='{"y": 30, "smoothness": 10}'>
-                            <h2 class="animation" data-animation="fadeInDown" data-animation-delay="0.5s">Fresh & Organic Fruits.</h2>
-                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit<br> massa enim. Nullam id varius nunc id varius nunc.</p>
+                            <h2 class="animation" data-animation="fadeInDown" data-animation-delay="0.5s">Welcome to Daily care</h2>
+                            <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">We truly care about meeting your daily needs<br> massa enim. Nullam id varius nunc id varius nunc.</p>
                             <a class="btn btn-default btn-radius btn-borderd animation" href="#" data-animation="fadeInUp" data-animation-delay="0.7s">Learn More</a>
                             <a class="btn btn-white btn-radius btn-borderd animation" href="#" data-animation="fadeInUp" data-animation-delay="0.8s">Contact Us</a>
                         </div>
