@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Unique Realty Solutions</title>
+    <title>Daily Care Solutions</title>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <!--<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>-->
     <!-- Bootstrap 3.3.5 -->
@@ -69,8 +69,7 @@
 
             <!-- Logo -->
             <a href="#" class="logo">
-                <b>Unique Realty Solutions</b>
-
+                <b>Daily Care International</b>
             </a>
 
 
@@ -102,12 +101,8 @@
                                                     class="img-circle" alt="User Image"/>
                                                 </div>
                                                 <!-- Message title and timestamp -->
-                                                <h4>
-                                                    Support Team
-                                                    <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                                                </h4>
-                                                <!-- The message -->
-                                                <p>Why not buy a new awesome theme?</p>
+                                            
+                                                
                                             </a>
                                         </li><!-- end message -->
                                     </ul><!-- /.menu -->
@@ -286,7 +281,7 @@
                 <!-- Main Footer -->
                 <footer class="main-footer" style="max-height: 100px;text-align: center">
                     <a href="#" data-toggle="modal" data-target="#myModal" >Policies and Procedures</a>.<br>
-                    <strong>Copyright © <?php echo date('Y'); ?> <a href="{{ url('/home') }}">Unique Realty Solutions</a>.</strong> All rights reserved
+                    <strong>Copyright © <?php echo date('Y'); ?> <a href="{{ url('/home') }}">Daily Care International</a>.</strong> All rights reserved
                 </footer>
 
             </div>
@@ -349,7 +344,7 @@
     <div class="modal-content" style="user-select: none;">
       <div class="modal-header" style="user-select: none;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Unique Realty Solutions</h4>
+        <h4 class="modal-title" id="myModalLabel">Daily Care International</h4>
       </div>
       <div class="modal-body" style="user-select: none;">
             <h1>Policy stays here</h1>
