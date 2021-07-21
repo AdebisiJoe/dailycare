@@ -14,10 +14,7 @@
                             <span class="ti-mobile"></span>
                             <p>+123 456 7890</p>
                         </li>
-                        <li>
-                            <span class="ti-email"></span>
-                            <a href="https://bestwebcreator.com/cdn-cgi/l/email-protection#2b42454d446b52445e59464a424705484446"><span class="__cf_email__" data-cfemail="741d1a121b340d1b010619151d185a171b19">[email&#160;protected]</span></a>
-                        </li>
+                       
                         <li>
                             <span class="ti-location-pin"></span>
                             <address>123 Street, Old Trafford, NewYork, USA</address>

@@ -41,7 +41,7 @@
 <h1>Policy stays Here</h1>
 <div class="form-group acceptForm">
                             <input type="checkbox" id="acceptBox" name="accept" class="checkbox lg" style="display: inline;"/> &nbsp; &nbsp; &nbsp;
-                            <label for="accept" style="z-index: 10000; opacity: 1!important; color: #ffffff"> By checking this, you agree to the<span style="color: red;font-size:25px"> Revised </span>Terms and Conditions</a>  of Unique Realty Solutions</label>
+                            <label for="accept" style="z-index: 10000; opacity: 1!important; color: #ffffff"> By checking this, you agree to the<span style="color: red;font-size:25px"> Revised </span>Terms and Conditions</a>  of Daily Care International</label>
                            <div class="btn btn-raised btn-success pull-right acceptbtn" onclick="this.preventDefault();">
                                Accept
                            </div>
@@ -230,7 +230,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                                 aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
-                    <h3 class="modal-title ext-center color-primary mb-4" id="myModalLabel2">Unique Realty Solutions
+                    <h3 class="modal-title ext-center color-primary mb-4" id="myModalLabel2">Daily Care International
                         COMPANY POLICIES AND PROCEDURES</h3>
                 </div>
                 <div class="modal-body" style="max-height:300px; overflow: scroll;">

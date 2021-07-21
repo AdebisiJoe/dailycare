@@ -39,6 +39,7 @@
 <link rel="stylesheet" href="{{ asset('front/assets/css/responsive.css') }}">
 <link rel="stylesheet" id="layoutstyle" href="{{ asset('front/assets/color/theme-default.css') }}">
 
+@yield('stylesheet')
 <script>
 var sc_project=11981757; 
 var sc_invisible=1; 
@@ -75,6 +76,6 @@ var sc_https=1;
 <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
 @include('website.includes.scripts')
-
+@yield('scripts')
 </body>
 </html>

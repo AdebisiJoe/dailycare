@@ -64,13 +64,16 @@
                         <a class="nav-link" href="blog-list-right-sidebar.html">Blog</a>
                     </li> --}}
                     <li>
-                        <a class="nav-link" href="{{ route('pages.about') }}">Compenstaion Plan</a>
+                        <a class="nav-link" href="{{url('/compensation-plan')}}">Compenstaion Plan</a>
                     </li>
                     <li>
                         <a class="nav-link" href="{{ route('pages.faq') }}">FAQ</a>
                     </li>
                     <li>
                         <a class="nav-link" href="{{url('/contact')}}">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{url('/join-now')}}">Join now</a>
                     </li>
                     <li>
                         <a class="nav-link" href="{{url('/login')}}">Login</a>

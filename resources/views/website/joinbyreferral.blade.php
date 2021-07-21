@@ -51,7 +51,7 @@
             </div>       
         </div>
 
-           <div class = "form-group">
+        <div class = "form-group">
             <div class = "col-md-2">
                 <label for = "Registrationpin">Registration Pin</label>
             </div>
@@ -64,7 +64,7 @@
 
            </div>
 
-       </div>    
+        </div>    
 
 
 

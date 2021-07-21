@@ -692,7 +692,7 @@ if ($validator->fails()){
 
     public function registerbyreferall($membershipid){
 
-        return view('website.joinbyreferral')->with('parentusername',$membershipid)->with('sponsorusername',$membershipid);
+        return view('website.joinbyreferral2')->with('parentusername',$membershipid)->with('sponsorusername',$membershipid);
     }
 
     public function checkifpinisused($string,$membershipid){

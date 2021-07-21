@@ -525,6 +525,10 @@ Route::group(['middleware' => ['web']], function () {
             return view('website.pages.contactus');
         });
 
+        Route::get('/compensation-plan', function () {
+            return view('website.pages.compensation-plan');
+        });
+
         Route::get('/join-now', function () {
             $headers = array('Cache-Control' => 'no-cache, no-store, max-age=0, must-revalidate', 'Pragma' => 'no-cache', 'Expires' => 'Fri, 01 Jan 1990 00:00:00 GMT');
             return view('website.join-now4', $headers);

@@ -199,19 +199,19 @@
   </section>
   <!-- END MENU -->
   @if(Session::has('errors')) 
-  @if ( $errors->count() > 0 )
-  <div class="alert alert-danger">
-   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-   <p>The following errors have occurred:</p>
+   @if ( $errors->count() > 0 )
+    <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p>The following errors have occurred:</p>
 
-   <ul>
-    @foreach( $errors->all() as $message )
-    <li>{{ $message }}</li>
-    @endforeach
-  </ul>
-</div>
-@endif
-@endif
+        <ul>
+          @foreach( $errors->all() as $message )
+          <li>{{ $message }}</li>
+          @endforeach
+        </ul>
+      </div>
+   @endif
+  @endif
 @yield('content')
 
 

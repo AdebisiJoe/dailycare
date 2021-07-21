@@ -23,7 +23,7 @@
         <div class="box-body">
           <div class="col-md-10">
             <div class="form-group">
-              <input class="form-control share_ref_link" id="foo" value="https://www.feedthenations.org/join-now/<?php echo e($username); ?>" type="text">
+              <input class="form-control share_ref_link" id="foo" value="http://dailycareinternational.com/join-now/<?php echo e($username); ?>" type="text">
             </div>
 
              <div id="share_ref_link"></div>

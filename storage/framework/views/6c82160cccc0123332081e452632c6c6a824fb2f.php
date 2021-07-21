@@ -33,10 +33,24 @@ Login
                 <?php endif; ?>
           </div>    
 
+          <?php if(Session::has('errors')): ?> 
+          <?php if( $errors->count() > 0 ): ?>
+           <div class="alert alert-danger">
+               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <p>The following errors have occurred:</p>
+       
+               <ul>
+                 <?php foreach( $errors->all() as $message ): ?>
+                 <li><?php echo e($message); ?></li>
+                 <?php endforeach; ?>
+               </ul>
+             </div>
+          <?php endif; ?>
+         <?php endif; ?>
 
           <div class="container">
             <div class="row">
-                <div class="col-md-12 mb-4 mb-md-0">
+                <div class="offset-md-3 col-md-6 mb-4 mb-md-0">
                     <div class="heading_s2">
                         <h3>Login</h3>
                       </div>

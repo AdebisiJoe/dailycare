@@ -1,12 +1,14 @@
-<?php $__env->startSection('page-title'); ?>
+@extends('website.mas')
+
+@section('page-title')
  Join now
-<?php $__env->stopSection(); ?>
-<?php $__env->startSection('stylesheet'); ?>
+@endsection
+@section('stylesheet')
     <!-- Date Picker -->
-    <link rel="stylesheet" href="<?php echo e(asset('plugins/datepicker/datepicker3.css')); ?>">
-<?php $__env->stopSection(); ?>
-<?php $__env->startSection('content'); ?>
-<section class="bg_light_yellow breadcrumb_section background_bg bg_fixed bg_size_contain" data-img-src="<?php echo e(asset('front/assets/images/breadcrumb_bg.png')); ?>">
+    <link rel="stylesheet" href="{{ asset('plugins/datepicker/datepicker3.css') }}">
+@endsection
+@section('content')
+<section class="bg_light_yellow breadcrumb_section background_bg bg_fixed bg_size_contain" data-img-src="{{ asset('front/assets/images/breadcrumb_bg.png') }}">
 	<div class="container">
     	<div class="row align-items-center">
         	<div class="col-sm-12 text-center">
@@ -23,7 +25,20 @@
         </div>
     </div>
 </section>
+@if(Session::has('errors')) 
+@if ( $errors->count() > 0 )
+ <div class="alert alert-danger">
+     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+     <p>The following errors have occurred:</p>
 
+     <ul>
+       @foreach( $errors->all() as $message )
+       <li>{{ $message }}</li>
+       @endforeach
+     </ul>
+   </div>
+@endif
+@endif
 <section>
     <div class="container">
     	<div class="row">
@@ -36,21 +51,20 @@
                                 <h4 class="text-center">Registration</h4>
                             </div>
                             <div class="card-body">
-                                <form id="register-form"   method = "post" action = "<?php echo e(url('/saveregister')); ?>">
-                                    <?php echo e(csrf_field()); ?>
-
+                                <form id="register-form"   method = "post" action = "{{url('/saveregister')}}">
+                                    {{ csrf_field() }}
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Sponsor ID</label>
-                                                <input data-toggle="tooltip" data-placement="top" title="This person gets the referral Bonus" type="text" class="form-control" id="sponsorid" name="reffererid" value="<?php echo e(old('reffererid')); ?>"  required>
+                                                <input data-toggle="tooltip" data-placement="top"  value={{$sponsorusername}}  title="This person gets the referral Bonus" type="text" class="form-control" id="sponsorid" name="reffererid" value="{{old('reffererid')}}"   readonly>
                                             </div>
                                             <span id="sponsoridindicator"></span>
                                         </div>
                                        <!--  <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Parent ID</label>
-                                                <input data-toggle="tooltip" data-placement="top" title="This is the person you want to place your registration under" type="text" class="form-control" id="parentid" name="parentid" value="<?php echo e(old('parentid')); ?>" required>
+                                                <input data-toggle="tooltip" data-placement="top" title="This is the person you want to place your registration under" type="text" class="form-control" id="parentid" name="parentid" value="{{old('parentid')}}" required>
                                             </div>
                                         </div> -->
                                         <div class="col-md-6">
@@ -58,57 +72,57 @@
                                                 <label>Position</label>
                                                  <select  class="form-control " name="place" data-toggle="tooltip" data-placement="top" title="Place your downline on the leg you want" required>
                                                     <option class="0" disabled="true" selected="true">--Position--</option>
-                                                    <option class="1" value="L" <?php if(old('place') == 'L'): ?> selected="selected" <?php endif; ?>>Left Leg</option>
-                                                    <option class="2" value="R" <?php if(old('place') == 'R'): ?> selected="selected" <?php endif; ?>>Right Leg</option>
+                                                    <option class="1" value="L" @if (old('place') == 'L') selected="selected" @endif>Left Leg</option>
+                                                    <option class="2" value="R" @if (old('place') == 'R') selected="selected" @endif>Right Leg</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Membership ID</label>
-                                                 <input data-toggle="tooltip" data-placement="top" title="Enter membership ID of the pin" type="text" class="form-control" id="membershipid" name ="membershipid" value="<?php echo e(old('membershipid')); ?>"  required>
+                                                 <input data-toggle="tooltip" data-placement="top" title="Enter membership ID of the pin" type="text" class="form-control" id="membershipid" name ="membershipid" value="{{old('membershipid')}}"  required>
                                             </div>
                                          </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Registration Pin</label>
-                                                <input type="text" class="form-control" id="Registrationpin" name="registrationpin" value="<?php echo e(old('registrationpin')); ?>" required>
+                                                <input type="text" class="form-control" id="Registrationpin" name="registrationpin" value="{{old('registrationpin')}}" required>
                                             </div>
                                          </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>First Name</label>
-                                                <input type="text" class="form-control" id="firstname" name="firstname" value="<?php echo e(old('firstname')); ?>" required>
+                                                <input type="text" class="form-control" id="firstname" name="firstname" value="{{old('firstname')}}" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Last Name</label>
-                                                <input type="text" class="form-control" id="lastname" name="lastname" value="<?php echo e(old('lastname')); ?>" required>
+                                                <input type="text" class="form-control" id="lastname" name="lastname" value="{{old('lastname')}}" required>
                                             </div>
                                          </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Email</label>
-                                                <input type = "email" class = "form-control" id = "email" name = "email" value="<?php echo e(old('email')); ?>" required>
+                                                <input type = "email" class = "form-control" id = "email" name = "email" value="{{old('email')}}" required>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Phone Number</label>
-                                                <input type = "tel" class = "form-control" id = "phonenumber" name = "phonenumber" value="<?php echo e(old('phonenumber')); ?>" required>
+                                                <input type = "tel" class = "form-control" id = "phonenumber" name = "phonenumber" value="{{old('phonenumber')}}" required>
                                             </div>
                                          </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label>Country</label>
-                                                <select name="country" value="<?php echo e(old('country')); ?>" id="inputGroupCountry" onchange="loadState()" class="form-control"></select>
+                                                <select name="country" value="{{old('country')}}" id="inputGroupCountry" onchange="loadState()" class="form-control"></select>
                                             </div>
                                         </div>
                                          <div class="col-md-4">
                                             <div class="form-group">
                                                 <label>State</label>
-                                                <select id="inputGroupState" value="<?php echo e(old('state')); ?>" name="state" class="form-control cs-states"></select>
+                                                <select id="inputGroupState" value="{{old('state')}}" name="state" class="form-control cs-states"></select>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -147,7 +161,7 @@
                                     </div>
                                     
                                 </form><br>
-                                <p class="text-center m-bottom-25">Already have an account? <a href="<?php echo e(url('login')); ?>">Sign In</a></p>
+                                <p class="text-center m-bottom-25">Already have an account? <a href="{{url('login')}}">Sign In</a></p>
                                 
 
                             </div>
@@ -161,19 +175,19 @@
     </div>
     
 </section>    
-<meta name="_token" content="<?php echo csrf_token(); ?>" />
-<?php $__env->stopSection(); ?>
+<meta name="_token" content="{!! csrf_token() !!}" />
+@endsection
 
-<?php $__env->startSection('scripts'); ?>
+@section('scripts')
 
 
- <!-- <script src="<?php echo e(asset('homepage/js/countries.js')); ?>"></script>
+ <!-- <script src="{{asset('homepage/js/countries.js')}}"></script>
 
   <script language="javascript">
         populateCountries("country", "state");
   </script> -->
 
-    <script src="<?php echo e(asset('plugins/country_state/country_state.js')); ?>"></script>
+    <script src="{{ asset('plugins/country_state/country_state.js') }}"></script>
 
     <script type="text/javascript">
         init('Nigeria','inputGroupCountry', 'inputGroupState');
@@ -197,7 +211,7 @@ return;
 }
 
 if(username.length >= 4){
-$("#user-result").html("<img src='<?php echo e(asset('images/availableimg/ajax-loader.gif')); ?>'/>");
+$("#user-result").html("<img src='{{asset('images/availableimg/ajax-loader.gif') }}'/>");
 
 $.ajaxSetup({
     headers: {
@@ -206,7 +220,7 @@ $.ajaxSetup({
 });
 $.ajax({
     type:"POST",
-    url:"<?php echo URL::route('availableusername'); ?>",
+    url:"{!!URL::route('availableusername')!!}",
     dataType:'json',
     data:{'username':username},
     success:function(data){
@@ -215,9 +229,9 @@ console.log(data);
 //var json =JSON.parse(data); 
 var json=data;
 if ( json.availability === "available" ) {
-   $("#user-result").html("Available <img src='<?php echo e(asset('images/availableimg/available.png')); ?>'/>"); 
+   $("#user-result").html("Available <img src='{{asset('images/availableimg/available.png') }}'/>"); 
 }else{
-$("#user-result").html("<p id='notavailable1'>Not-Available</p> <img  src='<?php echo e(asset('images/availableimg/not-available.png')); ?>'/>");   
+$("#user-result").html("<p id='notavailable1'>Not-Available</p> <img  src='{{asset('images/availableimg/not-available.png') }}'/>");   
         }
     }
 
@@ -239,7 +253,7 @@ return;
 }
 
 if(username.length >= 4){
-$("#parentidindicator").html("<img src='<?php echo e(asset('images/availableimg/ajax-loader.gif')); ?>'/>");
+$("#parentidindicator").html("<img src='{{asset('images/availableimg/ajax-loader.gif') }}'/>");
 
 $.ajaxSetup({
 headers: {
@@ -248,7 +262,7 @@ headers: {
 });
 $.ajax({
 type:"POST",
-url:"<?php echo URL::route('showmembershipid'); ?>",
+url:"{!!URL::route('showmembershipid')!!}",
 dataType:'json',
 data:{'username':username},
 success:function(data){
@@ -260,10 +274,10 @@ if ( json.availability === "available" ) {
 var membershipid=json.membershipid; 
 var firstname=json.firstname; 
 var lastname=json.lastname;
-     //$("#parentidindicator").html("Available <img src='<?php echo e(asset('images/availableimg/available.png')); ?>'/>"); 
+     //$("#parentidindicator").html("Available <img src='{{asset('images/availableimg/available.png') }}'/>"); 
      $("#parentidindicator").html("<p style='color:green'>"+firstname+" "+ lastname+"</p>"); 
  }else{
-    $("#parentidindicator").html("<p id='notavailable2'>Not-Available</p> <img  src='<?php echo e(asset('images/availableimg/not-available.png')); ?>'/>");  
+    $("#parentidindicator").html("<p id='notavailable2'>Not-Available</p> <img  src='{{asset('images/availableimg/not-available.png') }}'/>");  
 
 }
 }
@@ -285,7 +299,7 @@ return;
 }
 
 if(username.length >= 4){
-$("#sponsoridindicator").html("<img src='<?php echo e(asset('images/availableimg/ajax-loader.gif')); ?>'/>");
+$("#sponsoridindicator").html("<img src='{{asset('images/availableimg/ajax-loader.gif') }}'/>");
 
 $.ajaxSetup({
     headers: {
@@ -294,7 +308,7 @@ $.ajaxSetup({
 });
 $.ajax({
     type:"POST",
-    url:"<?php echo URL::route('showmembershipid'); ?>",
+    url:"{!!URL::route('showmembershipid')!!}",
     dataType:'json',
     data:{'username':username},
     success:function(data){
@@ -306,10 +320,10 @@ if ( json.availability === "available" ) {
    var membershipid=json.membershipid; 
    var firstname=json.firstname; 
    var lastname=json.lastname;
-//$("#parentidindicator").html("Available <img src='<?php echo e(asset('images/availableimg/available.png')); ?>'/>"); 
+//$("#parentidindicator").html("Available <img src='{{asset('images/availableimg/available.png') }}'/>"); 
 $("#sponsoridindicator").html("<p style='color:green'>"+firstname+" "+ lastname+"</p>"); 
 }else{
-$("#sponsoridindicator").html("<p id='notavailable2'>Not-Available</p> <img  src='<?php echo e(asset('images/availableimg/not-available.png')); ?>'/>");  
+$("#sponsoridindicator").html("<p id='notavailable2'>Not-Available</p> <img  src='{{asset('images/availableimg/not-available.png') }}'/>");  
 
 }
 }
@@ -323,7 +337,7 @@ $("#sponsoridindicator").html("<p id='notavailable2'>Not-Available</p> <img  src
 
         </script>
         <!-- datepicker -->
-        <script src="<?php echo e(asset('plugins/datepicker/bootstrap-datepicker.js')); ?>"></script> 
+        <script src="{{ asset('plugins/datepicker/bootstrap-datepicker.js') }}"></script> 
 
         <script type="text/javascript">
           $('#myWizard').wizard(); 
@@ -389,5 +403,4 @@ $("#sponsoridindicator").html("<p id='notavailable2'>Not-Available</p> <img  src
 </script>
 
 
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('website.mas', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection
