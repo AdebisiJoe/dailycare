@@ -20,7 +20,7 @@ class MySQLToGraphDB
     {
         try {
             $this->client = new Client('localhost', '7474');
-            $this->client->getTransport()->setAuth('neo4j', 'mlmapptest');
+            $this->client->getTransport()->setAuth('neo4j', '');
  
 
         } catch (Everyman\Neo4j\Exception $ex) {
@@ -31,7 +31,7 @@ class MySQLToGraphDB
             // Set some options - we are passing in a useragent too here
             curl_setopt_array($curl, [
                 CURLOPT_RETURNTRANSFER => 1,
-                CURLOPT_URL => 'https://smsclone.com/api/sms/sendsms?username=HWMG_Dev&password=feedthenations123&sender=Neo4JAlert&recipient=08055322161,09057399928&message=Neo4jAlert',
+                CURLOPT_URL => 'https://smsclone.com/api/sms/sendsms?username=&password=&sender=Neo4JAlert&recipient=08055322161,09057399928&message=Neo4jAlert',
                 CURLOPT_USERAGENT => 'Codular Sample cURL Request',
             ]);
 
